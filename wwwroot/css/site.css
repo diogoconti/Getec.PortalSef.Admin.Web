@@ -54,3 +54,18 @@ body {
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
 }
+
+
+/* --------- Personalização PortalSEF -------------------*/
+
+a.dropdown-toggle:link{
+    color:#ffffff;
+    text-decoration:none;
+}
+
+a.dropdown-toggle:hover {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+/* --------- Personalização PortalSEF -------------------*/

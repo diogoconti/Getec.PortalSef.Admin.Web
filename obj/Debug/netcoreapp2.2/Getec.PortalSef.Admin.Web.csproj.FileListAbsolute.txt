@@ -28,3 +28,9 @@ C:\Projects\Getec\Getec.PortalSef.Admin.Web\obj\Debug\netcoreapp2.2\Getec.Portal
 C:\Projects\Getec\Getec.PortalSef.Admin.Web\obj\Debug\netcoreapp2.2\Getec.PortalSef.Admin.Web.pdb
 C:\Projects\Getec\Getec.PortalSef.Admin.Web\obj\Debug\netcoreapp2.2\Getec.PortalSef.Admin.Web.csproj.CopyComplete
 C:\Projects\Getec\Getec.PortalSef.Admin.Web\obj\Debug\netcoreapp2.2\Getec.PortalSef.Admin.Web.csprojAssemblyReference.cache
+C:\Projects\Getec\Getec.PortalSef.Admin.Web\bin\Debug\netcoreapp2.2\Getec.PortalSef.dll
+C:\Projects\Getec\Getec.PortalSef.Admin.Web\bin\Debug\netcoreapp2.2\Getec.PortalSef.pdb
+C:\Projects\Getec\Getec.PortalSef.Admin.Web\obj\Debug\netcoreapp2.2\Razor\Views\Assuntos\Delete.g.cshtml.cs
+C:\Projects\Getec\Getec.PortalSef.Admin.Web\obj\Debug\netcoreapp2.2\Razor\Views\Assuntos\Index.g.cshtml.cs
+C:\Projects\Getec\Getec.PortalSef.Admin.Web\obj\Debug\netcoreapp2.2\Razor\Views\Assuntos\Create.g.cshtml.cs
+C:\Projects\Getec\Getec.PortalSef.Admin.Web\obj\Debug\netcoreapp2.2\Razor\Views\Assuntos\Edit.g.cshtml.cs

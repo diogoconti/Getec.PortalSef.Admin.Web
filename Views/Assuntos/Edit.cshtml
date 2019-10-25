@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<form method="post">
+    <fieldset>
+        <legend>Add Customer</legend>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="email">
+                <button class="btn btn-info" id="adicionar_documento">Adicionar Documento</button>
+            </label>
+
+            <div id="div_documentos" style="margin-top: 5px;" class="col-md-8 col-sm-6 col-xs-12;">
+            </div>
+        </div>
+        <div>
+            <label for="CompanyName">Company Name:</label>
+            <input type="text" name="CompanyName" value="" />
+        </div>
+        <div>
+            <label for="ContactName">Contact Name:</label>
+            <input type="text" name="ContactName" value="" />
+        </div>
+        <div>
+            <label for="Employees">Employee Count:</label>
+            <input type="text" name="Employees" value="" />
+        </div>
+        <div>
+            <label>&nbsp;</label>
+            <input type="submit" value="Submit" class="submit" />
+        </div>
+    </fieldset>
+</form>
+
+<script>
+    $(document).ready(function () {
+        var max_fields = 20; //maximum input boxes allowed
+        var wrapper = $("#div_documentos"); //Fields wrapper
+        var add_button = $("#adicionar_documento"); //Add button ID
+
+        var x = 1; //initlal text box count
+        $(add_button).click(function (e) { //on add input button click
+            e.preventDefault();
+            if (x < max_fields) { //max input box allowed
+                x++; //text box increment
+                $(wrapper).prepend('<div style="padding: 10px; border: 1px dotted #ccc; margin: 5px; height: 120px;"><div style="width: 80%; float: left"><div style="margin: 1px; font-size: 16px; width: 70%; "><input class="" style="width: 70%; " type="file" value="" name="documentos_arquivos[]"></div><br><div style="margin: 1px; font-size: 16px; width: 90%; "><b>TÃ­tulo do arquivo: </b><br><input class="" style="width: 80%; height: 30px" type="text" value="" name="documentos_titulos[]"></div><br></div><button id="remover_documento" type="button" style="float: right; margin-left: 4px; height: 41px" class="btn btn-danger">X</button></div>'); //add input box
+                //$(wrapper).prepend('<div><input type="file" name="documentos[]" value="" style="height: 42px; width:88%" class="form-control col-md-3 col-xs-3"><button id="remover_documento" type="button" style="float: right; margin-left: 4px; height: 41px" class="btn btn-danger">X</button></div>'); //add input box
+            }
+        });
+
+        $(wrapper).on("click", "#remover_documento", function (e) { //user click on remove text
+            e.preventDefault(); $(this).parent('div').remove(); x--;
+        })
+    });
+</script>

@@ -3058,7 +3058,7 @@ input[type="button"].btn-block {
 .dropdown-menu {
   position: absolute;
   top: 100%;
-  left: 0;
+  /*left: 0;*/
   z-index: 1000;
   display: none;
   float: left;
@@ -6569,7 +6569,8 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+    /*background-color: #f8f9fa !important;*/
+    background-color: #A7CA8A !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -6579,7 +6580,8 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+    /*background-color: #343a40 !important;*/
+    background-color: #2F3D2B !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
